@@ -1,5 +1,4 @@
 const calculator = require('./calculator');
-const sum = require("../sum/sum.js");
 
 test('Calculation of 2 numbers', () =>{
 	expect(calculator.add(1,2)).toBe(3);
